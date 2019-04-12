@@ -72,8 +72,8 @@ h3 {
 }
 
 .btn-banner {
-  background-color: #FC4A1A;
-  border-color: #FC4A1A;
+  background-color: #fc4a1a;
+  border-color: #fc4a1a;
   color: #fff;
   padding-left: 4em;
   padding-right: 4em;
@@ -88,8 +88,7 @@ h3 {
 }
 
 .footer {
-  background-color: #522806;
-  border-top: .3rem solid #bea59b;
+  background-color: black;
   color: #fff;
 }
 
@@ -101,8 +100,6 @@ h3 {
   width: 16%;
 }
 
-
-
 .multi {
   display: block;
   width: 16%;
@@ -110,8 +107,13 @@ h3 {
 
 .star {
   display: block;
-  width: 90%;
+  width: 50%;
 
+}
+
+.light {
+  display: block;
+  width: 40%;
 }
 
 .easy {
@@ -126,6 +128,19 @@ h3 {
   margin-right: 2em;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.text-1 {
+  color: #fc4a1a;
+  max-width: 70%;
+}
 
 @media only screen and (min-width: 38em) {
 
