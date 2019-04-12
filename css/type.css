@@ -1,13 +1,12 @@
-* https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;forms;buttons;accessibility;print
-*/
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
-Typografier || Code released under the UNLICENSE
-https://typografier.web-dev.tools/#0,100,1.3,1.067,0;38,110,1.4,1.125,1;60,120,1.5,1.125,1;90,130,1.5,1.125,1
+
+/*
+  Typografier || Code released under the UNLICENSE
+  https://typografier.web-dev.tools/#0,100,1.3,1.067,0;38,110,1.4,1.125,1;60,120,1.5,1.125,1;90,130,1.5,1.125,1
 */
 
 html {
@@ -15,7 +14,7 @@ html {
 -moz-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
-text-size-adjust: 100%
+text-size-adjust: 100%;
   font-size: 100%;
   line-height: 1.3;
 }

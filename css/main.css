@@ -1,6 +1,6 @@
 html {
   background-color: black;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",sans-serif;
 }
 
 .masthead {
@@ -34,7 +34,6 @@ h2 {
 
 h3 {
   color: black;
-  font-weight:normal;
   margin-left: 3em;
   margin-right: 3em;
 }
@@ -102,9 +101,7 @@ h3 {
   width: 16%;
 }
 
-p .chlst {
-  margin-top: 2em;
-}
+
 
 .multi {
   display: block;
