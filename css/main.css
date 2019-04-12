@@ -21,12 +21,6 @@ html {
   text-decoration: none;
 }
 
-.list-1,
-.list-2,
-.list-3 {
-  padding-right: 1em;
-}
-
 h1 {
   font-family: "Fredoka One", sans-serif;
   margin: 0;
@@ -35,6 +29,11 @@ h1 {
 h2 {
   color: black;
   text-align: center;
+}
+
+h3 {
+  color: black;
+  font-weight:normal;
 }
 .nav a:focus {
   outline: 3px solid #fff;
@@ -67,9 +66,11 @@ h2 {
 }
 
 .btn-banner {
-  background-color: black;
-  border-color: black;
+  background-color: #FC4A1A;
+  border-color: #FC4A1A;
   color: #fff;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .btn-banner:hover,
