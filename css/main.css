@@ -1,0 +1,103 @@
+html {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.masthead {
+  background-color: black;
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.list-1,
+.list-2,
+.list-3 {
+  padding-right: 1em;
+}
+
+h1 {
+  font-family: "Fredoka One", sans-serif;
+  margin: 0;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
+.nav a:hover span,
+.nav a:focus span {
+  border-bottom-color: #fff;
+}
+
+.banner {
+  min-height: 16em;
+  color: #fff;
+}
+
+.banner-content a:focus {
+  outline-color: #fff;
+}
+
+.btn-light {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-banner {
+  background-color: black;
+  border-color: black;
+  color: #fff;
+}
+
+.btn-banner:hover,
+.btn-banner:focus {
+  background-color: #fff;
+  border-color: #fff;
+  color: black;
+}
+
+.footer {
+  background-color: #522806;
+  border-top: .3rem solid #bea59b;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .banner,
+  .card {
+    min-height: 0;
+  }
+
+}
