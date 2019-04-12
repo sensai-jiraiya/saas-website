@@ -104,8 +104,18 @@ h3 {
   width: 19%;
 }
 
+.star {
+  display: block;
+  width: 90%;
+
+}
+
 .easy {
   margin-top: .5em;
+}
+
+.peasy {
+  color: white;
 }
 
 .one {
