@@ -1,5 +1,5 @@
 html {
-  background-color: #fff;
+  background-color: black;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -28,13 +28,21 @@ h1 {
 
 h2 {
   color: black;
-  text-align: center;
 }
 
 h3 {
   color: black;
   font-weight:normal;
 }
+
+.resize {
+  margin-left: 2em;
+}
+
+.chlst {
+  margin-right: 2em;
+}
+
 .nav a:focus {
   outline: 3px solid #fff;
 }
@@ -71,6 +79,7 @@ h3 {
   color: #fff;
   padding-left: 4em;
   padding-right: 4em;
+  margin-top: 1em;
 }
 
 .btn-banner:hover,
