@@ -38,6 +38,11 @@ h3 {
   margin-right: 3em;
 }
 
+li:hover{
+  background-color: #883000;
+  border-radius: .3em;
+  padding-top: .6em;
+}
 .nav a:focus {
   outline: 3px solid #fff;
 }
@@ -160,7 +165,7 @@ h3 {
 .btn:hover {
   background-color: white;
   color: #fc4a1a;
-  border-radius: 0.3em;
+  border-radius: .3em;
 }
 
 @media only screen and (min-width: 38em) {
