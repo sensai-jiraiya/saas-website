@@ -38,11 +38,12 @@ h3 {
   margin-right: 3em;
 }
 
-li:hover {
-  background-color: #883000;
+nav li:hover {
+  background-color: #fc4a1a;
   border-radius: .3em;
   padding-top: .6em;
   color: white;
+  border-color: #883000;
 }
 
 li:focus {
@@ -91,7 +92,6 @@ li:focus {
   padding-right: 4em;
   margin-top: 1em;
   border-radius: .3em;
-  text-decoration: none;
 }
 
 .btn-banner:hover,
@@ -160,18 +160,13 @@ li:focus {
   font-family: "Open Sans", sans-serif;
 }
 
-.sign-h {
-  background-color: #fc4a1a;
-  border-color: #fc4a1a;
-}
-
-.btn {
+.btn-2 {
   background-color: white;
   border-color: white;
   color: black;
 }
 
-.btn:hover {
+.btn-2:hover {
   background-color: black;
   color: #fc4a1a;
   border-radius: .3em;
