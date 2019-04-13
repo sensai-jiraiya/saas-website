@@ -15,6 +15,12 @@ html {
 .nav {
   text-align: right;
 }
+nav a:hover {
+  background-color: #fc4a1a;
+  border-color:  #fc4a1a;
+  border-radius: .3em;
+  padding-top: .6em;
+}
 
 .nav a {
   color: #fff;
@@ -36,14 +42,6 @@ h3 {
   color: black;
   margin-left: 3em;
   margin-right: 3em;
-}
-
-nav li:hover {
-  background-color: #fc4a1a;
-  border-radius: .3em;
-  padding-top: .6em;
-  color: white;
-  border-color: #883000;
 }
 
 li:focus {
