@@ -38,11 +38,17 @@ h3 {
   margin-right: 3em;
 }
 
-li:hover{
+li:hover {
   background-color: #883000;
   border-radius: .3em;
   padding-top: .6em;
+  color: white;
 }
+
+li:focus {
+  outline: 3px solid #fff;
+}
+
 .nav a:focus {
   outline: 3px solid #fff;
 }
@@ -84,6 +90,8 @@ li:hover{
   padding-left: 4em;
   padding-right: 4em;
   margin-top: 1em;
+  border-radius: .3em;
+  text-decoration: none;
 }
 
 .btn-banner:hover,
@@ -158,12 +166,13 @@ li:hover{
 }
 
 .btn {
-  background-color: #fc4a1a;
-  border-color: #fc4a1a;
+  background-color: white;
+  border-color: white;
+  color: black;
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: black;
   color: #fc4a1a;
   border-radius: .3em;
 }
