@@ -44,6 +44,20 @@ h2 {
   margin-top: .8em;
 }
 
+.ct {
+  color: white;
+  background-color: #4abdac;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.ct-2 {
+  color: white;
+  background-color: #f7b733;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
 h4 {
   color: white;
   background-color: #fc4a1a;
@@ -185,7 +199,6 @@ li:focus {
 .text-1 {
   color: white;
   max-width: 70%;
-
 }
 
 .sign {
@@ -204,7 +217,6 @@ li:focus {
   color: #fc4a1a;
   border-radius: .3em;
 }
-
 
 @media only screen and (min-width: 38em) {
 
