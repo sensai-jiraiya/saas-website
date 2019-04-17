@@ -58,6 +58,28 @@ h2 {
   border-top-right-radius: .5em;
 }
 
+table {
+  min-width: 50em;
+}
+
+.table-t {
+  background-color: black;
+}
+
+.top {
+  background-color: #fc4a1a;
+  color: white;
+}
+
+.col-1 {
+  color: white;
+}
+
+.col-1-a {
+  background-color: white;
+  color: black
+}
+
 h4 {
   color: white;
   background-color: #fc4a1a;
@@ -67,23 +89,12 @@ h4 {
 
 .card {
   background-color: white;
-  margin-left: 5em;
   border-radius: 1em;
   max-width: 70%;
 }
 
-.card-2 {
-  background-color: white;
-  border-radius: 1em;
-  margin-left: 3em;
-  max-width: 70%;
-}
-
-.card-3 {
-  background-color: white;
-  margin-left: 1em;
-  border-radius: 1em;
-  max-width: 70%;
+.card-p {
+  margin-left: 3.5em;
 }
 
 h3 {
@@ -255,4 +266,8 @@ select {
     width: 15%;
   }
 
+}
+
+.table-wrapper {
+  overflow: visible;
 }
