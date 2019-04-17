@@ -237,6 +237,11 @@ li:focus {
   border-radius: .3em;
 }
 
+p {
+  color: white;
+  margin-left: 5.5em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
