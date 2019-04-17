@@ -242,6 +242,17 @@ p {
   margin-left: 5.5em;
 }
 
+.test {
+  background-color:  #fc4a1a;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.test-text {
+  color: black;
+  margin: 0;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
